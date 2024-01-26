@@ -1,0 +1,15 @@
+.vscode
+node_modules
+.next
+coverage
+cypress.env.json
+cypress/videos
+cypress/screenshots
+.history/
+dump.rdb
+.DS_Store
+static/.DS_Store
+static/xls/.DS_Store
+src/components/.DS_Store
+yarn.lock
+newrelic_agent.log

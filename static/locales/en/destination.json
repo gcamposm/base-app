@@ -1,0 +1,17 @@
+{
+  "destination": "Destination",
+  "address-select-message": "Select Address",
+  "address-select-placeholder": "Default Address",
+  "name-message": "Enter Destination Name",
+  "name-placeholder": "Destination Name",
+  "delivery-type": "DELIVERY TYPE",
+  "delivery": "Delivery",
+  "branch-office": "Courier Branch Office",
+  "courier-message": "Select Courier",
+  "courier-placeholder": "Select Courier",
+  "branch-office-message": "Select Branch Office",
+  "branch-office-placeholder": "Select Branch Office",
+  "alias-checkbox": "Save destination address",
+  "alias-checkbox-message": "Add Destination Address Alias",
+  "alias-checkbox-placeholder": "Destination Address Alias"
+}

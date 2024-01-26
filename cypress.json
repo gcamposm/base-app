@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:3005",
+  "integrationFolder": "cypress/e2e",
+  "pageLoadTimeout": 100000,
+  "video": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 800
+}

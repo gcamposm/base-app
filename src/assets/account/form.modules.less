@@ -1,0 +1,76 @@
+@import (reference) '../base/variables.modules.less';
+@import (reference) '../base/base.modules.less';
+
+.signin_form {
+  padding: 1rem 1.5rem;
+}
+
+.table {
+  display: table;
+
+  background: #fff;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 5px 1px grey;
+  box-shadow: 0px 1px 5px 1px grey;
+  width: 80%;
+  min-width: 400px;
+  max-width: 1000px;
+  min-height: 500px;
+
+  &:extend(.centerAbs);
+
+  .table_cell_form {
+    width: 40%;
+    display: table-cell;
+    padding: 1rem;
+
+    .div_container {
+      margin-top: 20%;
+    }
+  }
+
+  .table_cell_svg {
+    width: 60%;
+    display: table-cell;
+    padding: 1rem;
+    background: @color-primary;
+
+    @media only screen and (max-width: 800px) {
+      display: none;
+    }
+
+    .div_container {
+      color: white;
+      padding: 1rem;
+      font-size: 20px;
+      position: absolute;
+      @media only screen and (min-width: 1000px) {
+        padding: 3rem;
+      }
+    }
+  }
+}
+
+.paragraph {
+  margin-top: 25px;
+}
+
+.background {
+  width: 300px;
+  padding: 1rem;
+  margin-left: 75px;
+}
+
+.menu {
+  position: absolute;
+  bottom: 10px;
+  display: inline-block;
+
+  div {
+    float: left;
+
+    &:last-child {
+      margin-left: 15px;
+    }
+  }
+}

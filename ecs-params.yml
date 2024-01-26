@@ -1,0 +1,11 @@
+version: 1
+task_definition:
+  services:
+    web:
+      cpu_shares: 500
+      mem_limit: '1.5G'
+      mem_reservation: '1G'
+    app:
+      cpu_shares: 1300
+      mem_limit: '2.5G'
+      mem_reservation: '1G'

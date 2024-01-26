@@ -1,0 +1,17 @@
+{
+  "order-detail": "Detalle del pedido",
+  "save-packing": "Guardar en Mis Empaques",
+  "weight": "PESO",
+  "weight-message": "Agrege peso en Kg",
+  "weight-placeholder": "Peso (kg)",
+  "mercadery-info": "INFORMACIÓN MERCADERÍA",
+  "mercadery-message": "Agrege contenido del peso",
+  "mercadery-placeholder": "Contenido del pedido",
+  "order-value-message": "Ingrese valor del pedido",
+  "order-value-placeholder": "Valor del pedido ($)",
+  "n-document-sale-message": "Ingrese num. de venta",
+  "n-document-sale-placeholder": "Nº documento de venta",
+  "order-info": "Las empresas de despacho cubren la mercadería hasta por 17 UF. Pero puedes asegurar la totalidad de tu producto por el siguiente monto:",
+  "value-of-insurance": "Valor del seguro adicional:",
+  "hire-additional-insurance": "Contratar seguro adicional para mi envío"
+}

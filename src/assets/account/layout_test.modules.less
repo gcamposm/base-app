@@ -1,0 +1,32 @@
+@import (reference) '../base/base.modules.less';
+
+.main_box {
+  &:extend(.base_box);
+  margin: 10px;
+}
+
+.page_signin {
+  z-index: 99;
+  background: none;
+
+  .form_box {
+    background: #fff;
+
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 5px 1px grey;
+    box-shadow: 0px 1px 5px 1px grey;
+    min-width: 800px;
+    max-width: 2000px;
+    height: 500px;
+    &:extend(.centerAbs);
+  }
+
+  #signin_header {
+    background: none;
+    font-family: arial;
+  }
+
+  #logoSVG {
+    width: 75px;
+  }
+}

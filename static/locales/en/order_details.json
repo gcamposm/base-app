@@ -1,0 +1,17 @@
+{
+  "order-detail": "Order Detail",
+  "save-packing": "Save Packing",
+  "weight": "WEIGHT",
+  "weight-message": "Enter weight in Kg",
+  "weight-placeholder": "Weight (kg)",
+  "mercadery-info": "MERCADERY INFORMATION",
+  "mercadery-message": "Enter Content Weight",
+  "mercadery-placeholder": "Order Content",
+  "order-value-message": "Enter Order Value",
+  "order-value-placeholder": "Order Value ($)",
+  "n-document-sale-message": "Enter Document Number",
+  "n-document-sale-placeholder": "Document Nº Sale",
+  "order-info": "Delivery companies can cover mercadery up to 17UF. But you can have total insurance of your product with the following amount:",
+  "value-of-insurance": "Aditional Insurance Value:",
+  "hire-additional-insurance": "Hire additional insurance for my shipment"
+}

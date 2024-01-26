@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Message should have warning text 1`] = `
+<div>
+  El cierre de entregas en mucha comunas al sur de Chile durante el paro de camioneros ha generado una acumulación de envíos pendientes y muchas comunas todavía se encuentran cerradas, así que no podrás generar tracking o imprimir etiquetas. Te aconsejamos aún no cargar nuevos pedidos hacia esas zonas hasta que la situación se estabilice.
+   
+  <a
+    href="#"
+  >
+    Revisa el detalle aquí
+  </a>
+  .
+</div>
+`;

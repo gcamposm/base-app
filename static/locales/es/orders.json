@@ -1,0 +1,15 @@
+{
+  "orders": "Órdenes",
+  "create-order": "Crear Orden",
+  "download-orders": "Descargar Órdenes",
+  "sync-orders": "Sincronizar Órdenes",
+  "new": "Nuevas",
+  "canceled": "Canceladas",
+  "archived": "Archivadas",
+  "sent": "Enviadas",
+  "origin": "Origen",
+  "destination": "Destino",
+  "order-details": "Detalles",
+  "order": "Orden",
+  "order-created": "Orden Creada"
+}

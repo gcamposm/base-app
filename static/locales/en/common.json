@@ -1,0 +1,22 @@
+{
+  "orders": "Orders",
+  "shipments": "Shipments",
+  "cancel": "Cancel",
+  "continue": "Continue",
+  "done": "Done",
+  "save": "Save",
+  "save-as-draft": "Save as Draft",
+  "search": "Search",
+  "filter": "Filter",
+  "import-xls": "Import XLSX",
+  "store": "Store",
+  "delivery": "Delivery",
+  "pagination": "Pagination",
+  "all": "All",
+  "state": "State",
+  "order-id": "Order ID",
+  "date": "Date",
+  "recipient": "Recipient",
+  "address": "Address",
+  "delivery-type": "Delivery Type"
+}

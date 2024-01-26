@@ -1,0 +1,13 @@
+{
+  "general-info": "Información general",
+  "order-id-message": "Ingrese ID de Orden",
+  "order-id-placeholder": "ID de la Orden",
+  "origin": "Origen",
+  "address-select-message": "Seleccione Dirección",
+  "address-select-placeholder": "Direcciones Guardadas",
+  "name-message": "Ingrese Nombre de Destinatario",
+  "name-placeholder": "Nombre Destinatario",
+  "alias-checkbox": "Guardar en Mis Direcciones (Origen)",
+  "alias-checkbox-message": "Ingrese alias dirección de origen",
+  "alias-checkbox-placeholder": "Alias dirección de origen"
+}

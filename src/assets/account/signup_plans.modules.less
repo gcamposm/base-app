@@ -1,0 +1,91 @@
+@import (reference) '../base/base.modules.less';
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.box {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  display: inline-block;
+}
+
+.alignLeft {
+  text-align: left;
+  padding-left: 15%;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  /* Add shadows on hover */
+  /* :hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  } */
+
+  /* Pricing header */
+  .header {
+    background-color: #111;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  /* List items */
+
+  /* Grey list item */
+  .grey {
+    background-color: #eee;
+    font-size: 15px;
+    text-align: justify;
+    text-align-last: center;
+    font-weight: lighter;
+    padding: 20px;
+  }
+}
+
+/* The "Sign Up" button */
+.button {
+  &:extend(.green_element);
+  /* background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px; */
+}
+
+.full_width {
+  width: 100%;
+}
+
+/* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+.details {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}

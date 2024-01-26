@@ -1,0 +1,23 @@
+{
+  "orders": "Órdenes",
+  "shipments": "Envíos",
+  "prices": "Cotizador",
+  "cancel": "Cancelar",
+  "continue": "Continuar",
+  "done": "Finalizar",
+  "save": "Guardar",
+  "save-as-draft": "Guardar Borrador",
+  "search": "Buscar",
+  "filter": "Filtrar",
+  "import-xls": "Importar XLSX",
+  "store": "Tienda",
+  "delivery": "Tipo de Entrega",
+  "pagination": "Paginación",
+  "all": "Todas",
+  "state": "Estado",
+  "order-id": "Orden ID",
+  "date": "Fecha",
+  "recipient": "Destinatario",
+  "address": "Dirección",
+  "delivery-type": "Tipo de Entrega"
+}

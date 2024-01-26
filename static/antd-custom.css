@@ -1,0 +1,9 @@
+/* Table border applied here, since antd v4 is borderless on the edges */
+.ant-table {
+  border: 1px solid #f0f0f0;
+}
+
+/* Tabs on the left */
+.custom-left-tabs .ant-tabs-nav-wrap {
+  justify-content: flex-end;
+}

@@ -1,0 +1,82 @@
+@import (reference) '../base/variables.modules.less';
+
+.card_pointer {
+  cursor: pointer;
+}
+
+.title {
+  .statistic_title {
+    font-size: 0.71rem;
+    font-weight: bold;
+  }
+}
+
+.centered {
+  .statistic_center {
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+}
+
+.value_style {
+  padding-top: 8px;
+  margin: 1px;
+}
+
+.statistic_subtitle {
+  display: block;
+  max-width: 420px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  .statistic_total {
+    color: @color-primary;
+  }
+}
+
+.card_selected {
+  border-left: 3px solid @color-primary;
+}
+
+.tendency {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.tendency_percentage_green {
+  color: #3f8600;
+  .tendency();
+}
+
+.tendency_percentage_red {
+  color: #cf1322;
+  .tendency();
+}
+
+.tendency_percentage_yellow {
+  color: #fcba03;
+  .tendency();
+}
+
+.card_statistic_disabled {
+  color: @light-grey;
+  .title();
+  .statistic_title {
+    color: @light-grey;
+  }
+  .centered();
+
+  .statistic_value {
+    .value_style();
+    color: @light-grey;
+  }
+}
+
+.card_statistic {
+  .title();
+  .centered();
+  .statistic_value {
+    .value_style();
+    color: #000000d9;
+  }
+}

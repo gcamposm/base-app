@@ -1,0 +1,17 @@
+{
+  "destination": "Destino",
+  "address-select-message": "Seleccione dirección",
+  "address-select-placeholder": "Dirección Guardadas",
+  "name-message": "Ingrese nombre destinatario",
+  "name-placeholder": "Nombre destinatario",
+  "delivery-type": "TIPO DE ENTREGA",
+  "delivery": "Domicilio",
+  "branch-office": "Sucursal Courier",
+  "courier-message": "Seleccione Courier",
+  "courier-placeholder": "Seleccione Courier",
+  "branch-office-message": "Seleccione sucursal",
+  "branch-office-placeholder": "Seleccione sucursal",
+  "alias-checkbox": "Guardar en Mis Direcciones (Destino)",
+  "alias-checkbox-message": "Ingrese alias dirección de destino",
+  "alias-checkbox-placeholder": "Alias Dirección de Destino"
+}

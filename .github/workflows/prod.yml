@@ -1,0 +1,49 @@
+on:
+  release:
+    types: [created]
+name: Deploy to Amazon ECS
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-west-2
+    - name: Login to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Build, tag, and push image to Amazon ECR
+      id: build-image
+      env:
+        ECR_REGISTRY: ${{ secrets.AWS_IMAGE_REGISTRY }}
+        ECR_REPOSITORY: 'admin-prod'
+        ECR_REPOSITORY_STABLE: 'admin-stable'
+      run: |
+        docker pull $ECR_REGISTRY/$ECR_REPOSITORY_STABLE:latest
+        docker tag  $ECR_REGISTRY/$ECR_REPOSITORY_STABLE:latest $ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7}
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7}
+
+    - name: Tag with latest
+      env:
+        ECR_REPOSITORY: 'admin-prod'
+      run: |
+        MANIFEST=$(aws ecr batch-get-image --repository-name $ECR_REPOSITORY --image-ids imageTag=${GITHUB_SHA::7} --query 'images[].imageManifest' --output text)
+        aws ecr put-image --repository-name $ECR_REPOSITORY --image-tag latest --image-manifest "$MANIFEST"
+
+    - name: Update services and deploy to clusters
+      id: rolling-update
+      env:
+        SERVICE_NAME: 'service-admin'
+        CLUSTER_NAME: 'shipit-prod'
+      run: |
+        aws ecs update-service --service "$SERVICE_NAME" --cluster $CLUSTER_NAME --force-new-deployment

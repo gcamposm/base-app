@@ -1,0 +1,13 @@
+{
+  "general-info": "General Information",
+  "order-id-message": "Enter Order ID",
+  "order-id-placeholder": "Order ID",
+  "origin": "Origin",
+  "address-select-message": "Select Address",
+  "address-select-placeholder": "Default Address",
+  "name-message": "Enter Origin Name",
+  "name-placeholder": "Origin Name",
+  "alias-checkbox": "Save origin address",
+  "alias-checkbox-message": "Add Origin Address Alias",
+  "alias-checkbox-placeholder": "Origin Address Alias"
+}

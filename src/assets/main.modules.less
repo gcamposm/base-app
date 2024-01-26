@@ -1,0 +1,40 @@
+@import (reference) './base/base.modules.less';
+
+.logo_collapsed {
+  margin: 15px;
+
+  img {
+    width: 40px;
+  }
+}
+
+.logo_not_collapsed {
+  margin: 10px 0px 4px 45px;
+
+  img {
+    width: 100px;
+  }
+}
+
+.aside_border {
+  border-right: 1px solid #e8e8e8;
+}
+
+.menu_border {
+  border: none;
+}
+
+.menu_border_collpased {
+  border-right: 1px solid #e8e8e8;
+}
+
+.arrowColor {
+  :global {
+    .ant-menu-submenu-title {
+      .ant-menu-submenu-arrow::before,
+      .ant-menu-submenu-arrow::after {
+        background: white !important;
+      }
+    }
+  }
+}

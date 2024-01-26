@@ -1,0 +1,42 @@
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.color-blue {
+  color: '#1890FF';
+}
+
+.color-black {
+  color: '#000000';
+}
+
+.text-bold {
+  font-weight: bold;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.padding-left {
+  padding-left: 24px;
+}
+
+.text-align-left {
+  text-align: left;
+}

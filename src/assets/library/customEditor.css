@@ -1,0 +1,73 @@
+.rdw-editor-wrapper {
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+}
+
+.rdw-editor-main {
+  color: black;
+  padding: 0px 10px 10px 10px;
+  min-height: 150px;
+}
+
+.rdw-editor-toolbar {
+  background: #fafafa;
+}
+
+.rdw-block-dropdown {
+  background: #fafafa;
+}
+
+.rdw-block-dropdown:hover {
+  background: #e6e6e6;
+}
+
+.rdw-dropdown-wrapper {
+  border: none;
+}
+
+.rdw-option-wrapper {
+  background: #fafafa;
+  border: none;
+  height: 30px;
+  padding: 10px;
+}
+
+.rdw-option-wrapper:hover {
+  background: #e6e6e6;
+}
+
+.rdw-link-modal {
+  height: 220px;
+}
+
+.rdw-link-modal-btn:disabled {
+  background: #3878e2;
+  color: white;
+}
+
+.rdw-emoji-modal {
+  color: black;
+}
+
+.rdw-emoji-modal,
+.rdw-link-modal-btn:hover,
+.rdw-option-wrapper:hover,
+.rdw-link-modal,
+.rdw-block-dropdown:hover,
+.rdw-dropdown-optionwrapper:hover {
+  box-shadow: 8px 6px 10px -7px rgba(0, 0, 0, 0.49);
+}
+
+.rdw-dropdown-optionwrapper {
+  box-shadow: 8px 6px 10px -7px rgba(0, 0, 0, 0.49);
+}
+
+.emoji-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.image-icon img {
+  width: 20px;
+  height: 20px;
+}
